@@ -1,0 +1,1 @@
+{"uuid":"8f4e0076-a172-46a5-8b4a-3ba602f19b7c","name":"creditPositiveAllFieldValidDeclined()","children":["6a9248e4-9508-49e6-8b62-6820b8b9834c"],"befores":[],"afters":[{"name":"cleanBase","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1697737888681,"stop":1697737888736}],"start":1697737871791,"stop":1697737888741}

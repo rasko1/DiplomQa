@@ -1,0 +1,1 @@
+{"uuid":"5a796e59-fd08-47be-a2af-01374cbd57ee","name":"buyNegativeOwnerCirillic()","children":["4b56eec1-91ae-4c96-97b0-423f43e5fd41"],"befores":[],"afters":[{"name":"cleanBase","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1697737978317,"stop":1697737978365}],"start":1697737972769,"stop":1697737978370}

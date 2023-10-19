@@ -1,0 +1,1 @@
+{"uuid":"6e127a74-6133-4037-9a2c-c4b0a947b021","name":"buyNegativeCardNotInDatabase()","children":["f59afc86-714a-4316-8201-3d81f6309506"],"befores":[],"afters":[{"name":"cleanBase","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1697737946533,"stop":1697737946584}],"start":1697737938185,"stop":1697737946586}
