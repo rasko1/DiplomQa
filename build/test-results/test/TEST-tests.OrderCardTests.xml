@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.OrderCardTests" tests="19" skipped="0" failures="6" errors="0" timestamp="2023-10-19T17:52:00" hostname="RASKOL" time="74.472">
+<testsuite name="tests.OrderCardTests" tests="19" skipped="0" failures="6" errors="0" timestamp="2023-10-19T20:24:19" hostname="RASKOL" time="76.272">
   <properties/>
-  <testcase name="buyNegativeOwnerSpecialSymbols()" classname="tests.OrderCardTests" time="5.572">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737925272.6.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737925272.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="buyNegativeOwnerSpecialSymbols()" classname="tests.OrderCardTests" time="6.36">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747065049.6.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747065049.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737925272.6.png
-Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737925272.6.html
+Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747065049.6.png
+Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747065049.6.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -117,11 +117,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8c52ec793da9aeb6a671bf2570759b6, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [1b96678a54f2d510a4dc8d242807ed75, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e8c52ec793da9aeb6a671bf2570759b6
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57575/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b96678a54f2d510a4dc8d242807ed75
+	at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.16.1/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -143,11 +143,11 @@ Session ID: e8c52ec793da9aeb6a671bf2570759b6
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="buyNegativeOwnerNumeric()" classname="tests.OrderCardTests" time="5.715">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737931017.7.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737931017.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="buyNegativeOwnerNumeric()" classname="tests.OrderCardTests" time="6.383">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747071504.7.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747071504.7.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737931017.7.png
-Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737931017.7.html
+Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747071504.7.png
+Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747071504.7.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -259,11 +259,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8c52ec793da9aeb6a671bf2570759b6, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [1b96678a54f2d510a4dc8d242807ed75, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e8c52ec793da9aeb6a671bf2570759b6
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57575/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b96678a54f2d510a4dc8d242807ed75
+	at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.16.1/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -285,18 +285,18 @@ Session ID: e8c52ec793da9aeb6a671bf2570759b6
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="buyNegativeMonthOver12()" classname="tests.OrderCardTests" time="1.256"/>
-  <testcase name="buyNegativeCvv1Symbol()" classname="tests.OrderCardTests" time="1.297"/>
-  <testcase name="buyNegativeYear00()" classname="tests.OrderCardTests" time="1.217"/>
-  <testcase name="buyNegativeYearUnderThisYear()" classname="tests.OrderCardTests" time="1.258"/>
-  <testcase name="buyNegativeYearOverThisYearOn6()" classname="tests.OrderCardTests" time="1.238"/>
-  <testcase name="buyNegativeCardNotInDatabase()" classname="tests.OrderCardTests" time="8.404"/>
-  <testcase name="buyNegativeNumberCard15Symbols()" classname="tests.OrderCardTests" time="1.242"/>
-  <testcase name="creditNegativeMonth00OverThisYear()" classname="tests.OrderCardTests" time="5.601">
-    <failure message="Element not found {by text: Неверно указан срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737953100.8.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737953100.8.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
+  <testcase name="buyNegativeMonthOver12()" classname="tests.OrderCardTests" time="1.478"/>
+  <testcase name="buyNegativeCvv1Symbol()" classname="tests.OrderCardTests" time="1.402"/>
+  <testcase name="buyNegativeYear00()" classname="tests.OrderCardTests" time="1.386"/>
+  <testcase name="buyNegativeYearUnderThisYear()" classname="tests.OrderCardTests" time="1.347"/>
+  <testcase name="buyNegativeYearOverThisYearOn6()" classname="tests.OrderCardTests" time="1.396"/>
+  <testcase name="buyNegativeCardNotInDatabase()" classname="tests.OrderCardTests" time="4.169"/>
+  <testcase name="buyNegativeNumberCard15Symbols()" classname="tests.OrderCardTests" time="1.466"/>
+  <testcase name="creditNegativeMonth00OverThisYear()" classname="tests.OrderCardTests" time="6.122">
+    <failure message="Element not found {by text: Неверно указан срок действия карты}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747091019.8.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747091019.8.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверно указан срок действия карты}
 Expected: visible
-Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737953100.8.png
-Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737953100.8.html
+Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747091019.8.png
+Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747091019.8.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -408,11 +408,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8c52ec793da9aeb6a671bf2570759b6, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [1b96678a54f2d510a4dc8d242807ed75, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверно указан срок действия карты&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e8c52ec793da9aeb6a671bf2570759b6
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57575/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b96678a54f2d510a4dc8d242807ed75
+	at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.16.1/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -434,13 +434,13 @@ Session ID: e8c52ec793da9aeb6a671bf2570759b6
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="buyNegativeMonth00ThisYear()" classname="tests.OrderCardTests" time="1.278"/>
-  <testcase name="buyPositiveAllFieldValidDeclined()" classname="tests.OrderCardTests" time="16.742">
-    <failure message="Element should be visible {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737971285.9.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737971285.9.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {.notification_status_error}
+  <testcase name="buyNegativeMonth00ThisYear()" classname="tests.OrderCardTests" time="1.458"/>
+  <testcase name="buyPositiveAllFieldValidDeclined()" classname="tests.OrderCardTests" time="16.909">
+    <failure message="Element should be visible {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747109777.9.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747109777.9.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {.notification_status_error}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737971285.9.png
-Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737971285.9.html
+Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747109777.9.png
+Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747109777.9.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -544,12 +544,12 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="buyNegativeAllFieldEmpty()" classname="tests.OrderCardTests" time="0.886"/>
-  <testcase name="buyNegativeOwnerCirillic()" classname="tests.OrderCardTests" time="5.601">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737977963.10.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737977963.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="buyNegativeAllFieldEmpty()" classname="tests.OrderCardTests" time="1.168"/>
+  <testcase name="buyNegativeOwnerCirillic()" classname="tests.OrderCardTests" time="6.039">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747116984.10.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747116984.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737977963.10.png
-Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737977963.10.html
+Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747116984.10.png
+Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747116984.10.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -661,11 +661,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8c52ec793da9aeb6a671bf2570759b6, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [1b96678a54f2d510a4dc8d242807ed75, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e8c52ec793da9aeb6a671bf2570759b6
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57575/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b96678a54f2d510a4dc8d242807ed75
+	at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.16.1/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -687,14 +687,14 @@ Session ID: e8c52ec793da9aeb6a671bf2570759b6
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="buyPositiveAllFieldValidApproved()" classname="tests.OrderCardTests" time="6.357"/>
-  <testcase name="buyNegativeCvv2Symbols()" classname="tests.OrderCardTests" time="1.266"/>
-  <testcase name="buyNegativeMonth1Symbol()" classname="tests.OrderCardTests" time="1.314"/>
-  <testcase name="buyNegativeOwner1Word()" classname="tests.OrderCardTests" time="5.595">
-    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737992728.11.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737992728.11.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
+  <testcase name="buyPositiveAllFieldValidApproved()" classname="tests.OrderCardTests" time="7.22"/>
+  <testcase name="buyNegativeCvv2Symbols()" classname="tests.OrderCardTests" time="1.405"/>
+  <testcase name="buyNegativeMonth1Symbol()" classname="tests.OrderCardTests" time="1.41"/>
+  <testcase name="buyNegativeOwner1Word()" classname="tests.OrderCardTests" time="6.045">
+    <failure message="Element not found {by text: Неверный формат}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747133409.11.png&#13;&#10;Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747133409.11.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Неверный формат}
 Expected: visible
-Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697737992728.11.png
-Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697737992728.11.html
+Screenshot: file:/C:/QA/DiplomQa/build/reports/tests/1697747133409.11.png
+Page source: file:/C:/QA/DiplomQa/build/reports/tests/1697747133409.11.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -806,11 +806,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8c52ec793da9aeb6a671bf2570759b6, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [1b96678a54f2d510a4dc8d242807ed75, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Неверный формат&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e8c52ec793da9aeb6a671bf2570759b6
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\7349~1\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57575/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b96678a54f2d510a4dc8d242807ed75
+	at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
 	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.16.1/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -832,7 +832,7 @@ Session ID: e8c52ec793da9aeb6a671bf2570759b6
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="buyNegativeYear1Symbol()" classname="tests.OrderCardTests" time="1.382"/>
+  <testcase name="buyNegativeYear1Symbol()" classname="tests.OrderCardTests" time="1.573"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
